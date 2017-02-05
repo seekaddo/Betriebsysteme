@@ -21,3 +21,9 @@ sudo dnf install http://linuxdownload.adobe.com/adobe-release/adobe-release-i386
 You then need to install the plugin from the repository:
 
 sudo dnf install flash-plugin
+
+.........packettracer for linux and the required libraries....
+
+sudo dnf install zlib-devel ncurses-devel gtk2 glibc glibc-devel \\
+ libstdc++ libX11-devel libXrender libXrandr libusb libXtst nss \\
+ qt qtwebkit
