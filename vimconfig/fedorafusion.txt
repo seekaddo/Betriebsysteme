@@ -8,4 +8,16 @@ sudo dnf install akmods "kernel-devel-uname-r == $(uname -r)"
 sudo dnf install broadcom-wl
 sudo akmods   # activate akmods for wireless
 
+-------for audio
+https://ask.fedoraproject.org/en/question/10217/sticky-how-do-i-install-adobe-flash-on-fedora/
+For the x86_64 (64-bit) version, click here or use a terminal:
 
+sudo dnf install http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
+
+For the x86 (32-bit) version, click here or use a terminal:
+
+sudo dnf install http://linuxdownload.adobe.com/adobe-release/adobe-release-i386-1.0-1.noarch.rpm
+
+You then need to install the plugin from the repository:
+
+sudo dnf install flash-plugin
