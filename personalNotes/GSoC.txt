@@ -1,0 +1,158 @@
+--->>>>>>>>>>>>>>>>>>>>>GSoCStudentGuide--->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+http://write.flossmanuals.net/gsocstudentguide/being-turned-down/
+https://summerofcode.withgoogle.com/help/
+
+https://www.google-melange.com/archive/gsoc/2014
+
+
+
+
+
+------>>>>>> Other summer interns Programs
+http://blog.openhatch.org/2014/summer-internships-for-open-source-enthusiasts/
+
+
+
+
+------>>>> Organization
+https://www.ccextractor.org/doku.php?id=public:gsoc:ideas_page_for_summer_of_code_2017
+https://developers.google.com/open-source/gsoc/resources/manual
+
+--->>>>Opensource internship
+https://wiki.gnome.org/OutreachProgramForWomen/2014/DecemberMarch#Accepted_Participants
+https://wiki.gnome.org/Outreachy
+
+http://exploreshaifali.github.io/2015/06/08/getting-into-summer-of-code-programs/ ##read first
+https://content.mirantis.com/rs/451-RBY-185/images/McQuaid-git-in-practice.pdf #for git Pros
+
+
+---->>>>>Github issues page for the GSoC
+https://github.com/CCExtractor/ccextractor/issues
+https://github.com/canihavesomecoffee/sample-platform/issues
+https://github.com/CCExtractor/ccextractor/issues/678
+
+			--->>>getting accepted---->>>
+ About the projects and getting accepted
+
+Qualification: In order to qualify you need to achieve a minimum of 7 points. You get points:
+
+1) By solving issues in our GitHub issue tracker (CCExtractor), Sample platform issues (default 1 points per issue unless specified somewhere in the issue page, double points for issues solved before the accepted orgs are announced). Most issues have a explicit number of points that you can find in a comment.
+2) By joining the community in slack (1 point if you do it after we've been accepted to GSoC, 2 points if you do it before). You can invite yourself here.
+3) If you are a former Code-in finalist you start with 1 point. If you were a winner, you start with 2 points. Note that there are just a few developers that meet this, so don't be discouraged if you aren't one of them. Almost no one is, but we'd love to hear from those that are.
+4) By sending us a TV sample that has something we don't support. It doesn't have to be from your own country (since hopefully, we already support it), but if it is, so much the better. This is probably hard to get, since we already got all the low hanging fruit. But if your local TV has subtitles you can turn on and off, we'd love a recording.
+
+Getting 7 points doesn't guarantee that you will be accepted as that depends on the quality of your proposal (which also needs to be good) and the amount of slots Google allocates to us.
+Students without 7 points will not be accepted no matter what. If we have more slots than students with the minimum score we will just give those slots back to the pool so other orgs can use them.
+
+
+
+			--->>>>>>Application sample for CCExtracter only---->>>>>>
+
+ Your proposal
+
+You can propose to do any of the following ideas, or you can bring your own. In any case, make sure you run them by us before you actually submit your proposal.
+
+Important: The first two weeks must be allocated to solve bugs listed in GitHub. Yes, we know it's a chore and that you would rather work immediately on the new great thing. But experience has proven that these two weeks are extremely useful to bond with the rest of the community, get you introduced to the existing code base, and of course the bonus that bugs will actually be fixed. If you really don't want to spend any time on this we will waive this requirement for students with 15 qualification points (see above).
+
+At the very least your proposal needs to
+
+- Explain what you do want to do, why it is important to you, and why it is important or useful to us.
+- Explain how you intend to accomplish the goal, in enough detail that makes it clear that you know what you are talking about. For example, “I will modify the CCExtractor binary so that it's able to convert audio to text with perfect accuracy” is the same thing as sending your proposal to the trash. You need to have a plan.
+- Detail the timeline, week by week, explaining the deliverables for each week (pay special attention to the milestones within the GSoC timeline itself, of course) and how we should validate the results.
+- Detail what kind of support you will need for us. For example, if you are going to need test streams, hardware, access to a server, etc, let us know, so we can plan ahead.
+- Detail your expected working hours in UTC.
+- Detail your planned absences. We don't need you to detail what you will be doing when you are not working of course, but if you are going away for any reason we need to do know so we don't think you've abandoned.
+- Link to your GitHub profile, if you have one, so we can take a look at your previous work.
+- GSoC is a coding program: This means that ideas that are about testing, website design, etc, are out.
+- However, we want to have good documentation: Make sure you have time to write a good technical article explaining you work.
+- Be realistic and honest with the timeline. Consider each week you should work around 40 hours. If your timeline reserves a lot of time for minor things we'll think that you are not going to be working full time in GSoC. On the other hand if you promise to do things in a lot less than that it seems realistic to us it will seem that you don't really know how much work things take.
+- If you are going to be using 3rd party libraries (that's OK), make sure to validate that their license is compatible with GPLv2 (which is ours). List the libraries in your proposal. Check that they are multiplatform. If you will need to extend those libraries in any way please explain. In this case, your proposal should include time to get that extension submitted to the maintainers (we love to contribute to other projects).
+
+Something else: Mentors often have their fingers in several pies. If you send the same proposal to several orgs everyone will know. So do yourself a favor and don't do that. You can apply to several organizations and that's totally fine, but each organization will want to see that you have put the time to write a great proposal that is focused on them. 
+
+
+
+---->>>>>>>>>>>>>>>>>>>>>Google code-in
+https://developers.google.com/open-source/gci/
+
+
+------------------------->>>>>>>>>>>>>>>>>>>>Proposal Sample----------------------->>>>>>>>>>>>>>>>>>>>
+
+					Prooposal Example 2
+
+"Reactome-Wikipathways Round-trip Format Converter" by Leontius Adhika Pradhana, GenMAPP, 2010
+Problem description
+
+Reactome is a "free, online, open-source, curated pathway database encompassing many areas of human biology". Each pathway in Reactome is manually curated -- peer-reviewed and cross-referenced with other database -- and thus has great reliability. Another pathway database website WikiPathways, by contrast, lives on the "wiki spirit" allowing anyone to edit and annotate pathways in the website. This makes WikiPathways an ideal venue for staging new pathways to be included in the official Reactome database, as well as a place for the community to review and make changes to pathways which may end up as an official amendment in Reactome.
+
+However, the two websites use markedly different data structure to store their pathways: WikiPathways uses GenMAPP Pathway Markup Language, a vector graphics format similar to SVG; Reactome internally stores the pathways in a proprietary semantic database schema. The formats differ not only in their presentation but also in their focus of data stored, making information exchange difficult.
+
+Recent development of Reactome introduced a new proprietary graphical XML format akin to GPML. This XML format adheres to SBGN specification which semantically defines symbols representing biological systems. This project will provide the means to convert to and from GPML and the new Reactome XML format.
+Implementation plan
+
+The project consists of three components:
+
+GPML to Reactome XML layout converter
+Unlike the Reactome XML format, GPML mainly describes the graphical representation of pathways and does not contain semantics of the reactions. To produce Reactome XML, therefore, the converter must employ certain heuristics to infer semantic relations from graphical representation and eliminate ambiguities. The heuristics will follow SBGN as close as possible while still retaining compatibility on other formatting conventions.
+
+Reactome XML layout to GPML converter
+The Reactome XML layout contains further pathways data that are not viewable in GPML. Therefore, the resulting GPML after conversion will contain additional comments containing the Reactome data or at least their identifiers, so that when a back-conversion (from the GPML to Reactome XML) occurs, data will be preserved.
+
+During the conversion, SBGN semantics will be employed to provide unambiguous back-conversion to Reactome XML later when necessary. Some additional shapes might need to be implemented in GPML, or alternatively comments can be written to differentiate SBGN symbols that do not have corresponding graphical representation in GPML.
+
+During the development of this converter a schema for Reactome XML will also be made so that converted test files can be easily validated.
+
+Automatic update mechanism between WikiPathways and Reactome
+A separate script will be made that periodically pulls updates from WikiPathways and convert it to Reactome XML layout. The script can be set to automatically update the pathways in Reactome if correct credentials are provided. This will mainly be done for pathways that are already tagged to be high quality.
+
+The script will also pull updates from Reactome and push new pathways to WikiPathways. Only Reactome pathways that have XML layout will be pushed to WikiPathways.
+Deliverables
+
+    an XML schema to validate the new Reactome XML format;
+
+    a GPML to Reactome XML layout converter and Reactome XML layout to GPML converter, which will be available both as command line tool and a library that can be integrated with WikiPathways infrastructure;
+
+    a system using the above converter, integrated to WikiPathways, that will periodically check for updates on both WikiPathways and Reactome and update the websites accordingly;
+
+    proper documentation and tests for the above-mentioned components.
+
+Timeline
+
+This week-by-week timeline provides a rough guideline of how the project will be done.
+
+3 -- 16 May
+
+Familiarize with the code and the community, the version control system, the documentation and test system used, and the new Reactome version.
+
+17 -- 30 May
+
+Write the Reactome XML layout schema and the command line Reactome XML to GPML converter, keeping in mind that the internals are to be used subsequently as a library.
+
+31 May -- 6 June
+
+Test and document existing code more thoroughly.
+
+7 -- 20 June
+
+Determine algorithms used to convert GPML graphical representations to Reactome XML. Then, write the command line GPML to Reactome converter, keeping in mind that the internals are to be used subsequently as a library.
+
+21 -- 27 June
+
+Test and document the GPML to Reactome XML converter and the heuristic algorithm more thoroughly.
+
+28 June -- 11 July
+
+Ensure that round-trip conversion works flawlessly (i.e. no data is lost when converting GPML to Reactome XML to GPML again, and vice versa). Also test and document round-trip conversions.
+
+12 -- 25 July
+
+Integrate the converters to WikiPathways. A system that periodically check for updates on both WikiPathways and Reactome and update the websites accordingly is written.
+
+26 July -- 1 August
+
+Test and document the periodic push/pull mechanism more thoroughly.
+
+2 -- 16 August
+
+Further refine tests and documentation for the whole project. 
