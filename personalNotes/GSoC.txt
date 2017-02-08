@@ -30,7 +30,7 @@ https://wiki.gnome.org/Outreachy
 
 http://exploreshaifali.github.io/2015/06/08/getting-into-summer-of-code-programs/ ##read first
 https://content.mirantis.com/rs/451-RBY-185/images/McQuaid-git-in-practice.pdf #for git Pros
-
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet ## cheatsheet for Makdown
 
 ---->>>>>Github issues page for the GSoC
 https://github.com/CCExtractor/ccextractor/issues
