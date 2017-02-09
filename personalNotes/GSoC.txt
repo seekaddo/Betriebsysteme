@@ -12,7 +12,7 @@ https://git.github.io/SoC-2016-Ideas/     ### by git and libgit2 projects
 https://wiki.libvirt.org/page/Google_Summer_of_Code_Ideas   ##libvirt
 https://www.x.org/wiki/SummerOfCodeIdeas/   ##X.org windows
 https://www.gnu.org/software/soc-projects/ideas-2017.html  #Gnu
-
+https://www.pdf-archive.com/2014/08/16/c-in-depth-3rd-edition-jon-skeet/c-in-depth-3rd-edition-jon-skeet.pdf ### copy now C# master-piece
 
 ------>>>>>> Other summer interns Programs
 http://blog.openhatch.org/2014/summer-internships-for-open-source-enthusiasts/
