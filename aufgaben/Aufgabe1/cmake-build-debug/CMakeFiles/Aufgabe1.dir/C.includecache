@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/seekaddo/gitrepos/Betriebsysteme/aufgaben/Aufgabe1/main.c
+stdio.h
+-
+sys/stat.h
+-
+malloc.h
+-
+memory.h
+-
+stdlib.h
+-
+errno.h
+-
+
