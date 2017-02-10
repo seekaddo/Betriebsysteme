@@ -1,1 +1,0 @@
-/usr/bin/cc   -Wall -Werror -Wextra -Wstrict-prototypes -fexceptions         -Wno-variadic-macros -pedantic -fno-common -O3 -Wno-long-long -std=gnu11  -g   CMakeFiles/Aufgabe1.dir/main.c.o  -o Aufgabe1 

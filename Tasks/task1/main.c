@@ -10,8 +10,8 @@
  * @version 01
  *
  * @todo setting a permission on file
- * @todo
- * @todo
+ * @todo the permission mode is in octal number in a string.
+ * @todo convert from string to base 8 and pass it to chmod
  *
  *
  */
