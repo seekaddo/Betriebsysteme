@@ -89,10 +89,10 @@ int main(int argc, char *argv[]) {
 
 
      /*get the right permission in mode_t with & 07777
-      * cast it to mode_t or int
+      * cast it to mode_t
       * convert the mode to mode_t with strtol in base 8(octal) atoi atol not allowed
       * delimeter for strtol is NULL*/
-     ret = chmod(argv[2], 07777 & (mode_t)strtol(argv[1],NULL,8));
+     ret = chmod(argv[2],(mode_t)strtol(argv[1],NULL,8));
 
      if(ret){
          int ern = errno;
