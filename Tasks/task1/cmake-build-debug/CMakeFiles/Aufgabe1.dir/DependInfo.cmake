@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/seekaddo/gitrepos/Betriebsysteme/aufgaben/Aufgabe1/main.c" "/home/seekaddo/gitrepos/Betriebsysteme/aufgaben/Aufgabe1/cmake-build-debug/CMakeFiles/Aufgabe1.dir/main.c.o"
+  "/home/seekaddo/gitrepos/Betriebsysteme/Tasks/task1/main.c" "/home/seekaddo/gitrepos/Betriebsysteme/Tasks/task1/cmake-build-debug/CMakeFiles/Aufgabe1.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

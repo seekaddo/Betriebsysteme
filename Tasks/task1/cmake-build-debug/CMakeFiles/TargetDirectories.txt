@@ -1,0 +1,3 @@
+/home/seekaddo/gitrepos/Betriebsysteme/Tasks/task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/seekaddo/gitrepos/Betriebsysteme/Tasks/task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/seekaddo/gitrepos/Betriebsysteme/Tasks/task1/cmake-build-debug/CMakeFiles/Aufgabe1.dir

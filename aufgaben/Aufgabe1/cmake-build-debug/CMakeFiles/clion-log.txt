@@ -1,4 +1,0 @@
-/home/seekaddo/2.Semester/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/seekaddo/gitrepos/Betriebsysteme/aufgaben/Aufgabe1
--- Configuring done
--- Generating done
--- Build files have been written to: /home/seekaddo/gitrepos/Betriebsysteme/aufgaben/Aufgabe1/cmake-build-debug

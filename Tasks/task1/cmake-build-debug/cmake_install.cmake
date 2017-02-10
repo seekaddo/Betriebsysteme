@@ -1,4 +1,4 @@
-# Install script for directory: /home/seekaddo/gitrepos/Betriebsysteme/aufgaben/Aufgabe1
+# Install script for directory: /home/seekaddo/gitrepos/Betriebsysteme/Tasks/task1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/seekaddo/gitrepos/Betriebsysteme/aufgaben/Aufgabe1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/seekaddo/gitrepos/Betriebsysteme/Tasks/task1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
