@@ -36,7 +36,7 @@ Fill free to use the code and also learn from me as we go along. If you find any
 ...   |  |  |  |U | G | T | R | W | X | R | W | X | R | W | X |
 | ------------- ------------- -----------------------:|
 
-fieltype | <------- | permission----------->
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+fieltype | <------- permission----------->
+------ | ------
+*Still* | `renders`  **nicely**
+1 | 2  3
