@@ -7,8 +7,8 @@ Fill free to use the code and also learn from me as we go along. If you find any
 
     #USEFUL BOOKS FOR THE SEMESTER
     
-     * [The Linux Programming Interface](http://shop.oreilly.com/product/9781593272203.do)
-     * [Linux System Programming](http://shop.oreilly.com/product/9780596009588.do)
+  * [The Linux Programming Interface](http://shop.oreilly.com/product/9781593272203.do)
+  * [Linux System Programming](http://shop.oreilly.com/product/9780596009588.do)
     
     
 ###LECTURE[1] Linux Filesystem and Management
