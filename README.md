@@ -35,8 +35,9 @@ Fill free to use the code and also learn from me as we go along. If you find any
                 <---File--> <-----------------type Permissions-------------->
                 |   |  |  |  |U | G | T | R | W | X | R | W | X | R | W | X |
                 | ------------- |:-------------:| -------------:|----------:|
-                
-            Markdown | Less | Pretty
-                --- | --- | ---
-            *Still* | `renders` | **nicely**
-                1 | 2 | 3
+
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
