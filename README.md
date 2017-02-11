@@ -36,3 +36,60 @@ Fill free to use the code and also learn from me as we go along. If you find any
    if ((statb.st_mode & S_IFMT) == S_IFREG)   //with already defined macros is easy to test the file types
     printf("regular file\n");
    ```
+   ```
+   Constant Test macro File type
+   S_IFREG S_ISREG()   Regular file
+   S_IFDIR S_ISDIR()    Directory
+   S_IFCHR S_ISCHR()   Character device
+   S_IFBLK S_ISBLK()   Block device
+   S_IFIFO S_ISFIFO()  FIFO or pipe
+   S_IFSOCK S_ISSOCK()  Socket
+   S_IFLNK S_ISLNK()    Symbolic link   
+   ```
+   
+   ```c
+   //useful printf formats
+   %ld, (long) sb->st_ino  //cast the inodes to long
+   %ld  (long) sb->st_nlink // number of hard links 
+   UID=%ld   (long) sb->st_uid // user id
+   GID=%ld   (long) sb->st_gid // group id
+   %lld  (long long) sb->st_size, sb->st_blksize and sb->st_blocks
+   %s  ctime(&sb->st_ctime.tv_sec) // tv_sc for time_t
+, 
+   
+   ```
+
+* Permission
+```c
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int chmod (const char *path, mode_t mode);
+// needed to convert the user mode input [0600] to base 8 octal for the mode_t
+long int strtol(const char *nptr, char **endptr, int base); 
+
+int fchmod (int fd, mode_t mode);
+
+//change owner
+#include <sys/types.h>
+#include <unistd.h>
+// getgranam needed to get the id of the user-group
+struct group *getgrnam(const char *name);
+//-1 is specified if it need to be unchanged ( uid_t owner, gid_t group)
+int chown (const char *path, uid_t owner, gid_t group);
+
+
+int lchown (const char *path, uid_t owner, gid_t group);
+int fchown (int fd, uid_t owner, gid_t group);
+
+
+//file accessibility
+#include <unistd.h>
+int access(const char * pathname , int mode );
+            Returns 0 if all permissions are granted, otherwise –1
+    Constant Description   [man page](http://man7.org/linux/man-pages/man2/faccessat.2.html)
+F_OK Does the file exist?
+R_OK Can the file be read?
+W_OK Can the file be written?
+X_OK Can the file be executed?
+```
