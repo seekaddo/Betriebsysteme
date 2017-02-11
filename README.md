@@ -38,5 +38,5 @@ Fill free to use the code and also learn from me as we go along. If you find any
 
 fieltype | <------- permission----------->
 ------ | ------
-*Still* | `renders`  **nicely**
-1 | 2  3
+c b p l s | U  G  T  R  W  X  R  W  X  R  W  X 
+1 |         user    group       other
