@@ -11,6 +11,42 @@ Fill free to use the code and also learn from me as we go along. If you find any
   * [Linux System Programming](http://shop.oreilly.com/product/9780596009588.do)
     
     
+*Useful Methods
+```c
+// when str = NULL, size = 0, returns the size of the passed arguments
+// good for creating arrays without knowing the size in advance
+int snprintf(char *str, size_t size, const char *format, ...); 
+//then can this be used to create a fill in the array with the previous format.
+int sprintf(char *str, const char *format, ...);
+
+#include <unistd.h>
+//get the working directory
+//when buf NULL return a malloc to the current working dir
+char * getcwd (char *buf, size_t size);
+
+//returns malloc to the current dir
+#define _GNU_SOURCE
+#include <unistd.h>
+char * get_current_dir_name (void);
+            ***verboten****  char * getwd (char *buf);
+            
+//change working dir
+#include <unistd.h>
+int chdir (const char *path);
+int fchdir (int fd);
+
+//converting time to str
+#include <time.h>
+char *asctime(const struct tm *tm);
+char *ctime(const time_t *timep);  // adds newline at the end of the string '\n'
+size_t strftime(char *s, size_t max, const char *format, const struct tm *tm);
+
+
+```
+    
+    
+    
+    
 ###LECTURE[1] Linux Filesystem and Management
     ##USEFUL METHODS
           #stat family
@@ -36,8 +72,7 @@ Fill free to use the code and also learn from me as we go along. If you find any
    ```c
    if ((statb.st_mode & S_IFMT) == S_IFREG)   //with already defined macros is easy to test the file types
     printf("regular file\n");
-   ```
-   ```
+   `   ```
    Constant Test macro File type
    S_IFREG S_ISREG()   Regular file
    S_IFDIR S_ISDIR()    Directory
