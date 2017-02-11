@@ -30,13 +30,12 @@ Fill free to use the code and also learn from me as we go along. If you find any
             | S_IFCHR       | 0020000       | cha.-device | c     |
             | S_IFIFO       | 0010000       | FIFO        | p     |
             
+ 
  #more here [Linux man Page](http://man7.org/linux/man-pages/man2/stat.2.html)
-  #Layout of mode_t bit mask for the file permission
-<---File--> | <-----------------type Permissions--------------> |
-...   |  |  |  |U | G | T | R | W | X | R | W | X | R | W | X |
-| ------------- ------------- -----------------------:|
+        #Layout of mode_t bit mask for the file permission
+
 
 fieltype | <------- permission----------->
 ------ | ------
-c b p l s | U  G  T  R  W  X  R  W  X  R  W  X 
-1 |         user    group       other
+c b p l s | U  G  T   R  W  X    R  W  X     R  W  X 
+1 |              user      group            other
