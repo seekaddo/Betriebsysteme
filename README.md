@@ -82,12 +82,13 @@ int chown (const char *path, uid_t owner, gid_t group);
 int lchown (const char *path, uid_t owner, gid_t group);
 int fchown (int fd, uid_t owner, gid_t group);
 
-
-//file accessibility
+```
+* file accessibility [man page](http://man7.org/linux/man-pages/man2/faccessat.2.html)
+```c
 #include <unistd.h>
 int access(const char * pathname , int mode );
             Returns 0 if all permissions are granted, otherwise –1
-    Constant Description   [man page](http://man7.org/linux/man-pages/man2/faccessat.2.html)
+    Constant Description   
 F_OK Does the file exist?
 R_OK Can the file be read?
 W_OK Can the file be written?
