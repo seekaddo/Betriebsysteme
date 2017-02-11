@@ -20,7 +20,7 @@ Fill free to use the code and also learn from me as we go along. If you find any
             ##File permission bits
             * S_IFMT     0170000   bit mask for the file type bit field used with (mode & S_IFMT)
             | Mash          | 12 Bits cor   | file type   | symbol|
-            | ------------- |:-------------:| -----:      | -----:|
+             --- |  --- | ---  | --- 
             | S_IFSOCK      | 0140000       |socket       | s     |
             | S_IFLNK       | 0120000       |symbolic link| l     |
             | S_IFREG       | 0100000       | regular file| -     | 
