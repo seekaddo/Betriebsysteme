@@ -32,10 +32,7 @@ Fill free to use the code and also learn from me as we go along. If you find any
             
  
  #more here [Linux man Page](http://man7.org/linux/man-pages/man2/stat.2.html)
-        #Layout of mode_t bit mask for the file permission
-
-
-fieltype | <------- permission----------->
------- | ------
-c b p l s | U  G  T   R  W  X    R  W  X     R  W  X 
-1 |              user      group            other
+   ```c
+   if ((statb.st_mode & S_IFMT) == S_IFREG)   //with already defined macros is easy to test the file types
+    printf("regular file\n");
+   ```
