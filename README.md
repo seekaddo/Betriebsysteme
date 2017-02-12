@@ -9,6 +9,7 @@ Fill free to use the code and also learn from me as we go along. If you find any
     
   * [The Linux Programming Interface](http://shop.oreilly.com/product/9781593272203.do)
   * [Linux System Programming](http://shop.oreilly.com/product/9780596009588.do)
+  * [Modern Operating System](https://www.pearsonhighered.com/program/Tanenbaum-Modern-Operating-Systems-4th-Edition/PGM80736.html)
     
     
 *Useful Methods
