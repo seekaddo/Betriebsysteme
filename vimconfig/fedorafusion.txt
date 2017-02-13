@@ -27,3 +27,7 @@ sudo dnf install flash-plugin
 sudo dnf install zlib-devel ncurses-devel gtk2 glibc glibc-devel \\
  libstdc++ libX11-devel libXrender libXrandr libusb libXtst nss \\
  qt qtwebkit
+
+
+ ------->>>>>>>>>>>>>>>>>>>>>fedora latex .sty file problem------->>>>>>>>>>>
+ yum -y install 'tex(tocloft.sty)' # just specify the name of the missing file to install
