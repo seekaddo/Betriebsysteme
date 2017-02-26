@@ -7,14 +7,17 @@ Fill free to use the code and also learn from me as we go along. If you find any
 ##C Advices with special methods
 
 ```c
-/*sizeof(p) * 2 + 1 might not be enough room for the textual representation of the pointer value produced by %p. A 0x prefix is often present, and the standard leaves a lot of room for implementations to make architecture specific choices. You should declare a buffer with a larger size and use snprintf to avoid a potential buffer overflow. /*
+/*sizeof(p) * 2 + 1 might not be enough room for the textual representation of the pointer value produced by %p. A 0x prefix
+is often present, and the standard leaves a lot of room for implementations to make architecture specific choices. 
+You should declare a buffer with a larger size and use snprintf to avoid a potential buffer overflow. /*
 
 char pstr[sizeof(p) * 2 + 2 + 1]; // Each byte of the pointer is two hexadecimal character, plus a potential 0x, plus terminator
 snprintf(pstr, sizeof(pstr), "%p", (void *) p); // always use snprintf instead of sprintf.
 
 
 
-/* When using realloc don't assign directly back to the pointer you pass to the function, think about what happens if realloc returns a null pointer. */
+/* When using realloc don't assign directly back to the pointer you pass to the function, think about what happens 
+if realloc returns a null pointer. */
 oldstr = realloc (oldstr, sizeof(char) * newsize); // create a new str and assign realloc to it and check for null
 
 
